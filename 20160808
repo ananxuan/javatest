@@ -1,0 +1,15 @@
+public class TestArray{
+  public static void main(String[] args){
+    double[] myList = {1.9, 2.9, 3.4, 3.5}
+    double total = 0;//声明变量！！！
+    for (int i = 0; i<myList.length; i++){//i也要初始化
+      total += myList[i];
+    }System.out.print("Total is"+ total);
+  //数组作为函数的参数
+  public static void printArray(int[] array){
+    for (int i = 0;i< array.length; i++){
+      System.out.print(array[i] + " ");
+    }
+  }
+  
+    
